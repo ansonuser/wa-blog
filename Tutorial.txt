@@ -32,3 +32,10 @@ _posts裡的檔案需要以日期做開頭，_drafts裡的不需要
 _drafts: 當啟動server模式為 draft才會顯示 (--draft)
 
 可以透過創建_layouts去複寫預設的主題
+
+
+
+run local:
+change: base_url to '' in _config.yaml
+if deploy on git:
+change: base_url to '$repo_name'

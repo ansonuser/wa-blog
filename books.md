@@ -11,6 +11,6 @@ permalink: /books.html
 
 
 {% for post in site.categories.Books %}   
-    <li style="padding: 5px;"><a href="{{post.url}}">{{post.title}}</a> </li>
+    <li style="padding: 5px;"><a href="{{post.url | prepend:site.baseurl}}">{{post.title}}</a> </li>
 {% endfor %}
 </html>
