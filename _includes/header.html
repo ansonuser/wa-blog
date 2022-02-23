@@ -18,7 +18,7 @@
     
                {% for path in site.pages %}
                   <li class="nav-item">
-                      <a class="nav-link {% if page.url == path.url%} active {% endif %}" href="{{path.permalink}}">{{path.title}}</a>
+                      <a class="nav-link {% if page.url == path.url%} active {% endif %}" href="{{path.permalink | prepend:site.baseurl}}">{{path.title}}</a>
                      
                   </li>
                 {% endfor %}

@@ -11,6 +11,6 @@ permalink: /foods.html
 
 
 {% for post in site.categories.Foods %}   
-    <li style="padding: 5px;"><a href="{{post.url}}">{{post.title}}</a> </li>
+    <li style="padding: 5px;"><a href="{{post.url | preprend:site.baseurl}}">{{post.title}}</a> </li>
 {% endfor %}
 </html>
