@@ -1,0 +1,34 @@
+Create  jekyll repo
+```
+jekyll new $repo_name
+```
+
+Run local server by "bundle exec jekyll serve"
+有出現webrick error: 
+try:
+```
+bundle add webrick
+```
+
+Introduction :
+
+_posts: place tp store blog post
+_site: final output of the website
+_config.yml: setting for website
+
+Gemfile: store dependency of website(for ruby)相關套件設定
+
+```
+---
+layout:
+title:
+data:
+categories
+---
+markdown 開頭設定相關資訊
+url: date(到日期)跟categories組成，也可自行定義
+```
+_posts裡的檔案需要以日期做開頭，_drafts裡的不需要
+_drafts: 當啟動server模式為 draft才會顯示 (--draft)
+
+可以透過創建_layouts去複寫預設的主題
