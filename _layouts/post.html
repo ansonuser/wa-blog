@@ -18,13 +18,14 @@
                 {% endif %}
             </div>
         </div>
+        <h1>{{location.pathname}}</h1>
     </div>
     
     {% if site.comments.gitalk %}
     <script src="{{site.baseurl}}/js/md5.min.js"></script>
     <script>
       var gitalk = new Gitalk({
-        id: md5("{{page.url}}"),
+        id: md5(location.pathname),
         clientID: "{{ site.comments.clientID }}", 
         clientSecret: "{{ site.comments.clientSecret }}", 
         repo: "{{ site.comments.repo }}", 
