@@ -24,10 +24,12 @@ description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
-baseurl: "/wa-blog" # change for github deploy
+baseurl: ''  #"/wa-blog" # change for github deploy
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
+usemathjax: true
+markdown: kramdown
 
 comments:
   gitalk: true
@@ -35,7 +37,7 @@ comments:
   repo: wa-blog
   owner: ansonuser
   clientSecret: 2e3b579bdbed54f1088ca6a0a27a312a9c482440
-
+  distractionFreeMode: false
 
 
 # Build settings
