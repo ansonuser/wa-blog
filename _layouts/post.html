@@ -9,7 +9,7 @@
             <br>
             {{content}}
     </div>
-    <!-- <div class="comment">
+    <div class="comment">
         <div class="gitalk-container"  id="gitalk-container">
             {% if site.comments.gitalk %}
             <section class="post-footer-item comment">
@@ -18,22 +18,21 @@
             </section>
             {% endif %}
         </div>
-    </div> -->
-   
+    </div>
+    {% if site.comments.gitalk %}
+    <script>
+      var gitalk = new Gitalk({
+        id: '{{page.url}}',
+        clientID: '{{ site.comments.clientID }}', 
+        clientSecret: '{{ site.comments.clientSecret }}', 
+        repo: '{{ site.comments.repo }}', 
+        owner: '{{ site.comments.owner }}',
+        distractionFreeMode: '{{site.gitalk.distractionFreeMode}}',
+      })
+  
+      gitalk.render('disqus_thread')
+    </script>
+    {% endif %}
+  
 </body>
 
-<!-- {% if site.comments.gitalk %}
-  <script>
-    var gitalk = new Gitalk({
-      id: 'wa-blog',
-      clientID: '{{ site.comments.clientID }}', 
-      clientSecret: '{{ site.comments.secret }}', 
-      repo: '{{ site.comments.repo }}', 
-      owner: '{{ site.comments.owner }}',
-      admin: '{{ site.comments.admin }}',
-      distractionFreeMode: '{{site.gitalk.distractionFreeMode}}',
-    })
-
-    gitalk.render('disqus_thread')
-  </script>
-  {% endif %} -->
