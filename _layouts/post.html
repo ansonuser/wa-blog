@@ -21,9 +21,10 @@
     </div>
     
     {% if site.comments.gitalk %}
+    <script src="{{site.baseurl}}/js/md5.min.js"></script>
     <script>
       var gitalk = new Gitalk({
-        id: '{{page.url}}',
+        id: md5('{{page.url}}'),
         clientID: '{{ site.comments.clientID }}', 
         clientSecret: '{{ site.comments.clientSecret }}', 
         repo: '{{ site.comments.repo }}', 
