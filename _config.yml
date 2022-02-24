@@ -29,7 +29,17 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
 
+comments:
+  gitalk: true
+  clientID: 452086122dc81a8f1ca1
+  repo: wa-blog
+  owner: wa-blog
+  admin: wa-blog
+  clientSecret: 2e3b579bdbed54f1088ca6a0a27a312a9c482440
 
+gitalk:
+  owner: wa-blog
+  repo: wa-blog
 
 
 # Build settings
