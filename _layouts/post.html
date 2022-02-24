@@ -9,8 +9,8 @@
             <br>
             {{content}}
     </div>
-    <div style="padding:50px">
-        <div class="container">
+    <div class="comment">
+        <div class="gitalk-container">
             {% if site.comments.gitalk %}
             <section class="post-footer-item comment">
             <div id="gitalk_container"></div>
@@ -30,7 +30,8 @@
       clientSecret: '{{ site.comments.secret }}', 
       repo: '{{ site.comments.repo }}', 
       owner: '{{ site.comments.owner }}',
-      admin: '{{ site.comments.admin }}'
+      admin: '{{ site.comments.admin }}',
+      distractionFreeMode: '{{site.gitalk.distractionFreeMode}}',
     })
 
     gitalk.render('disqus_thread')

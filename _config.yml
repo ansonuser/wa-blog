@@ -36,7 +36,14 @@ comments:
   owner: ansonuser
   clientSecret: 2e3b579bdbed54f1088ca6a0a27a312a9c482440
 
-
+gitalk:
+  enable: true    #是否开启Gitalk评论
+  clientID: 452086122dc81a8f1ca1
+  clientSecret: 2e3b579bdbed54f1088ca6a0a27a312a9c482440   
+  repo: wa-log
+  owner: ansonuser    #github用户名
+  admin: ansonuser
+  distractionFreeMode: true #是否启用类似FB的阴影遮罩
 
 
 # Build settings
