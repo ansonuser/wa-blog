@@ -35,6 +35,7 @@ comments:
   gitalk: true
   clientID: 452086122dc81a8f1ca1
   repo: wa-blog
+  admin: ansonuser
   owner: ansonuser
   clientSecret: 2e3b579bdbed54f1088ca6a0a27a312a9c482440
   distractionFreeMode: false
