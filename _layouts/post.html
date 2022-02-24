@@ -9,14 +9,17 @@
             <br>
             {{content}}
     </div>
-    <div class="container" style="padding: 15%;">
-        {% if site.comments.gitalk %}
-        <section class="post-footer-item comment">
-        <div id="gitalk_container"></div>
-        <div id="disqus_thread"></div>
-        </section>
-        {% endif %}
+    <div style="padding:50px">
+        <div class="container">
+            {% if site.comments.gitalk %}
+            <section class="post-footer-item comment">
+            <div id="gitalk_container"></div>
+            <div id="disqus_thread"></div>
+            </section>
+            {% endif %}
+        </div>
     </div>
+    
 </body>
 
 {% if site.comments.gitalk %}
