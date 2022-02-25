@@ -25,17 +25,21 @@ description: >- # this means to ignore newlines until "baseurl:"
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 baseurl: "/wa-blog" # change for github deploy
-url: "/wa-blog" # the base hostname & protocol for your site, e.g. http://example.com
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
 usemathjax: true
 markdown: kramdown
 
 comments:
-  provider: disqus
-  disqus:
-    short_name: https-ansonuser-github-io-wa-blog
- 
+  gitalk: true
+  clientID: 452086122dc81a8f1ca1
+  repo: wa-blog
+  admin: ansonuser
+  owner: ansonuser
+  clientSecret: 2e3b579bdbed54f1088ca6a0a27a312a9c482440
+  distractionFreeMode: false
+
 
 # Build settings
 theme: minima  # you can search other theme from rubygems.org
@@ -51,9 +55,7 @@ defaults:
     values: 
       layout: "post"
 
-
-
-
+    
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
