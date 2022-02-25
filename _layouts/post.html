@@ -6,6 +6,7 @@
     <div class="container" style="padding:30px">
         <main class="page-content">
             <h1>{{page.title}}</h1>
+            <h1>{{location.pathname}}</h1>
             <br>
             {{content}}
         <div class="comment" style="padding:20px">
@@ -18,7 +19,7 @@
                 {% endif %}
             </div>
         </div>
-        <h1>{{location.pathname}}</h1>
+        
     </div>
     <script src="{{site.baseurl}}/js/md5.min.js"></script>
 
