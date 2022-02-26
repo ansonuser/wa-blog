@@ -6,8 +6,6 @@ categories: Books
 
 <div class="container-fluid">
 	<div class="row single-entry">
-		<article class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-12 col-xs-offset-0">
-			
 			內容與證券心理學有些重複，主要講述與貨幣有關的經驗，可以看到很多不同類型的事件
 			<hr>
 			<h3>給投機者的一席話</h3>
@@ -15,7 +13,7 @@ categories: Books
 				<br>
 				思想家說過：『當人們忘記一切時，剩下的便是文化。』;而股市則是:
 				拋棄所有儲存在電腦和圖書館裡的資料，剩下的才是股市的知識。
-				<br></br>
+				<br>
 				不是很能理解這句話，我自己的解讀是，你所經歷的一切，會內化在腦中，或許無法表述，但它存在著。
 			</p>
 			<p>想在股市上賺錢，並不一定要有最準確的消息不可，那時船舶正夯，於是作者買入了“海洋”的股票，最終大賺，但海洋是家魚罐頭公司。</p>
@@ -43,8 +41,6 @@ categories: Books
 				<li>即使在最保險的交易，也要考慮到各種因素，尤其考慮意外事件</li>
 				<li>輕率的政治領導，也無法摧毀堅強有實力的經濟體，至多會使經濟暫時陷入困境</li>
 			</ul>
-	
-		</article>
 	</div>
 </div>
 

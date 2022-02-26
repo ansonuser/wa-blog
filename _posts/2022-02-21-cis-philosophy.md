@@ -8,11 +8,10 @@ permalink: /:categories/:year/:month/:day/:title.html
 <body>
 	<div class="container-fluid">
 		<div class="row single-entry">
-			<article class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-12 col-xs-offset-0">
                 這本書應該是我看過最好笑的投資哲學，可以看出作者的個性，像個孩子，看到有趣或是覺得好玩的就會去做，雖說文中說他根本不知道買進的是什麼公司或是產業，只是看到趨勢或有利可尋就會買進，覺得會跌就會賣出，但他對總經以及產業應該還是有一定的判斷能力。
                 以下重點截取至本書：
                 <p>
-                    一. 戰勝本能，才有勝算
+                    <h2>一. 戰勝本能，才有勝算</h2>
                     <ul>
                         <li>順勢操作：只買進正在上漲的股票，一但下跌就賣出。</li>
                         <li>從微觀的角度看，隨機會側重一方，漲勢跌勢。</li>
@@ -23,7 +22,7 @@ permalink: /:categories/:year/:month/:day/:title.html
                     </ul>
                 </p>
                 <p>
-                   二.  創造假設，才能戰勝市場
+                   <h2>二.  創造假設，才能戰勝市場</h2>
                    <ul>
                        將市場的資訊比喻成三個階段
                        <li>第一支泥鰍</li> 
@@ -37,7 +36,7 @@ permalink: /:categories/:year/:month/:day/:title.html
                    幾乎還沒有人想到，但邏輯確很明確邏輯的假設，也就是第一隻泥鰍，會十分美味
                 </p>
                 <p>
-                    三. 冷靜審視市場跟自己
+                    <h2>三. 冷靜審視市場跟自己</h2>
                     <ul>
                         <li>自以為聰明的假設</li>
                         買進同業中股價相對便宜，但便不便宜只是自己的主觀判斷
@@ -50,7 +49,6 @@ permalink: /:categories/:year/:month/:day/:title.html
                     </ul>
                     用大家都知道資訊絕對沒有勝率，但我認為可以從資訓去推估其他事情
                 </p>
-			</article>
 		</div>
 	</div>
 

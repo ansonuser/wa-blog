@@ -5,7 +5,6 @@ categories: Books
 
 <div class="container-fluid">
     <div class="row single-entry">
-        <article class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-12 col-xs-offset-0">
             <h2>
                 序 - 意識
             </h2>
@@ -83,7 +82,6 @@ categories: Books
                         <td colspan="3" style="text-align: center;">現金流量表</td>
                         <td colspan="3" style="text-align: center;">資產負債表部分資產</td>
                     </tr>
-    
                     <tr>
                         <td>科目</td>
                         <td>2010/2Q</td>
@@ -92,7 +90,6 @@ categories: Books
                         <td>2010/2Q</td>
                         <td>2010/1Q</td>
                     </tr>
-    
                     <tr>
                         <td>稅後淨利</td>
                         <td>406</td>
@@ -109,7 +106,6 @@ categories: Books
                         <td>1695</td>
                         <td>1551</td>
                     </tr>
-    
                     <tr>
                         <td>攤提</td>
                         <td>24</td>
@@ -118,14 +114,12 @@ categories: Books
                         <td>2995</td>
                         <td>2218</td>
                     </tr>
-    
                     <tr>
                         <td>投資收益-權益法</td>
                         <td style="color:red">-7</td>
                         <td style="color: red;">-1</td>
                         <td colspan="3" rowspan="7"></td>
                     </tr>
-      
                     <tr>
                         <td>長期投資處分損（益）</td>
                         <td style="color:red">-224</td>
@@ -187,7 +181,6 @@ categories: Books
                     <dt>- 其他調整項</dt>
                     <dd>編不平的帳靠此項調節，若金額過大，因將此公司排除於投資清單中</dd>
                 </dl>
-    
                 一家公司的投資到底耗費多少資金，可以看現金流量表中的"投資活動現金"，龐大的投資，往往是造成公司在不景氣中鉅額虧損的元兇，
                 必須釐清產能與廠房投資之間的關係，是否能夠帶來更高的獲利。
                 營業現金＋投資現金為自由現金流量，當金流不足需要借貸，屬於第三項“籌資現金流量”，主要項目有：
@@ -262,7 +255,6 @@ categories: Books
             帳面上稅後淨利都相當不錯，兩者現金股利卻天差地別，原因在於“炎洲”投資現金高達57億元，
             遠超過營業所得的現金3.2億，造成公司需要不斷舉債借款，而龐大的籌資金額，就是印股票換鈔票，
             最後造成股本通膨，價值下跌。
-    
             好的存股應具備以下幾點:
             <ul>
                 <li>長期自由現金流量為正數</li>
@@ -270,10 +262,8 @@ categories: Books
                 <li>股本不會膨脹</li>
                 <li>營收與淨利具有成長性</li>
             </ul>
-    
         透過財報去推敲出公司或媒體所發布的不合理新聞，母公司與子公司的合併報與母公司報表運算可以算出子公司的財報，
         若有地雷情形出現就該加入黑名單。
-        
         <p>
             <h3>每股淨值參考意義不大</h3>
             股東權益 = 資產 - 負債
@@ -286,7 +276,6 @@ categories: Books
             </ul>
             因此每股淨值早已無法真實反映公司的真正變現價值
         </p>
-        
         <p>
             <h3>市值淨值比</h3>
             定義:市場投資人願意用多少前來投資每一塊錢的股東權益
@@ -295,12 +284,10 @@ categories: Books
             <br>
             當落入這區間的高價股為過熱區間(可見2000, 2006,2007,2011之高價股走勢)
         </p>
-    
         <p>
             <h3>從庫存變化嗅出衰退先機</h3>
             以2011年的"擎亞"為例，2011年的Q1"擎亞"的存貨較上季增加了10億，營收減少了14億，而他的大客戶宏達電2011Q1~2011Q2間的成長已趨緩，
             而之後的營收開始節節衰退。
         </p>
-        </article>
     </div>
 </div>

@@ -41,6 +41,7 @@ disqus:
 theme: minima  # you can search other theme from rubygems.org
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
 
 # 預設模板
 defaults:
