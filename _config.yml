@@ -45,12 +45,15 @@ plugins:
 
 # 預設模板
 defaults:
-  - 
-    scope:
+  - scope:
       path: ""
       type: "posts" # all file in "_posts"
     values: 
       layout: "post"
+  - scope:
+      path: "assets/img"
+    values:
+      image: true
 
 
 
