@@ -11,11 +11,7 @@ categories: Books
         h1 {color:white};
 </style>
 <p style="background-image:url({{site.baseurl}}/background.jpg);"> 
-    <h1> 登</h1>
-    <h1> 頂 </h1>
-    <h1> 只 </h1>
-    <h1> 為 </h1>
-    <h1> 美</h1>
-    <h1> 景</h1>
+   
 </p>
 <html>
+
