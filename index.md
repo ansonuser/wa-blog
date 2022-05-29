@@ -3,15 +3,12 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: main
-categories: Books
+categories: Main
 ---
 
 <html>
-<style>
-        h1 {color:white};
-</style>
-<p style="background-image:url({{site.baseurl}}/background.jpg);"> 
+<div style="background-image:url({{site.baseurl}}/assets/icons/background.jpg);"> 
    
-</p>
+</div>
 <html>
 
