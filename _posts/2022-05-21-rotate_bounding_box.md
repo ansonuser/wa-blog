@@ -1,21 +1,23 @@
 ---
 title: 旋轉目標檢測方法
 categories: Computer
+image: 
 ---
 
 
 ## 常見的角度回歸方法
 
 
-![definition](/assets/img/ratate_bounding_box_fig1.PNG)
 
-- opencv定義法: $$theta$$ 是指框與x軸所形成的銳角，將此邊定義為w，$theta$定義域 [-90, 0)
+![definition]({{ "assets/img/rotate_bounding_box_fig1.PNG" | relative_url }})
 
-- 長邊定義法: $$theta$$是指長邊h與x軸所形成的夾角，定義域[-90, 90)
+- opencv定義法: $$\theta$$ 是指框與x軸所形成的銳角，將此邊定義為w，$$\theta$$ 定義域 [-90, 0)
+
+- 長邊定義法: $$\theta$$ 是指長邊h與x軸所形成的夾角，定義域[-90, 90)
 
 - 有序四邊形定義法，最左邊的點為起始點，採取逆時針排列( [x1,y1,x2,y2,x3,y3,x4,y4] )
 
-![example](/assets/img/ratate_bounding_box_fig2.PNG)
+![example]({{ "assets/img/rotate_bounding_box_fig2.PNG" | relative_url }})
 
 (a) 在90度定義中，由於角度的週期性(POA) + 邊的可交換性(EoE) ，加上w跟h的縮放，讓回歸問題變得很複雜
 
@@ -28,7 +30,7 @@ categories: Computer
 
 - one-hot label encoding
 
-定義$$w = AR/C_{/theta}$$, AR跟$$C_{/theta}$$分別為角度全域(180度)跟種類個數
+定義 $$w = AR/C_{\theta}$$ , AR跟 $$C_{\theta}$$ 分別為角度全域(180度)跟種類個數
 
 舉例來說: 
 
@@ -50,8 +52,17 @@ w = 1， 是指將180度分成180類，每類長度為1
 ## Circular Smooth Label for Angular Classification (CSL)
 
 
-$$ CSL(x) = \begin{case} CSL(x) = g(x), \theta - r < x < \theta + r \\ 0, otherwise  \end{case}$$
- 
+
+<div class="cmath"> $$ 
+
+CSL(x) =
+      \begin{align}
+        &g(x), \theta - r < x < \theta + r \\
+        &0, otherwise     \\\end {align}
+$$</div>
+
+
+
 
 其中r 是半徑, g(x)是window function. 
 
@@ -65,7 +76,7 @@ $$ CSL(x) = \begin{case} CSL(x) = g(x), \theta - r < x < \theta + r \\ 0, otherw
 ex: gaussian, pulse, triangle, rectangular function
 
 
-![different coding](/assets/img/ratate_bounding_box_fig4.PNG)
+![different-coding]({{ "/assets/img/rotate_bounding_box_fig4.PNG" | relative_url }})
 
 ## source:
 - https://www.cvmart.net/community/detail/2862
@@ -74,3 +85,4 @@ ex: gaussian, pulse, triangle, rectangular function
 
 
 <script id="MathJax-script"  src="{{site.baseurl}}/js/math.js"></script>
+<script id="MathJax-script1"  src="{{site.baseurl}}/js/MathJax.js"></script>
