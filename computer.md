@@ -1,5 +1,5 @@
 ---
-title: Foods
+title: Computer
 layout: default
 categories: Main
 permalink: /computer.html
@@ -10,7 +10,7 @@ permalink: /computer.html
 <html>
 
 
-{% for post in site.categories.computer %}   
+{% for post in site.categories.Computer %}   
     <li style="padding: 5px;"><a href="{{post.url | prepend:site.baseurl}}">{{post.title}}</a> </li>
 {% endfor %}
 </html>
