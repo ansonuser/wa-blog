@@ -57,7 +57,7 @@ w = 1， 是指將180度分成180類，每類長度為1
 
 CSL(x) =
       \begin{align}
-        &g(x), \theta - r < x < \theta + r \\
+        &g(x), o\theta - r < x < \theta + r \\
         &0, otherwise     \\\end {align}
 $$</div>
 
@@ -79,10 +79,15 @@ ex: gaussian, pulse, triangle, rectangular function
 ![different-coding]({{ "/assets/img/rotate_bounding_box_fig4.PNG" | relative_url }})
 
 ## source:
-- https://www.cvmart.net/community/detail/2862
-- https://github.com/pyenv-win/pyenv-win#installation
-- https://arxiv.org/pdf/2003.05597.pdf
+- <https://www.cvmart.net/community/detail/2862>
+- <https://arxiv.org/pdf/2003.05597.pdf>
 
 
 <script id="MathJax-script"  src="{{site.baseurl}}/js/math.js"></script>
 <script id="MathJax-script1"  src="{{site.baseurl}}/js/MathJax.js"></script>
+
+<style>
+body > div > div:not(#MathJax_Font_Test) {
+    min-width: 960px;
+}
+</style>
