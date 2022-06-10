@@ -2,7 +2,7 @@
 title: Foods
 layout: default
 categories: Main
-permalink: /foods.html
+permalink: /computer.html
 ---
 
 # 目錄
@@ -10,7 +10,7 @@ permalink: /foods.html
 <html>
 
 
-{% for post in site.categories.Foods %}   
+{% for post in site.categories.computer %}   
     <li style="padding: 5px;"><a href="{{post.url | prepend:site.baseurl}}">{{post.title}}</a> </li>
 {% endfor %}
 </html>
