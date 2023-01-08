@@ -1,6 +1,6 @@
 ---
 title: 超速學習
-categories: Books
+categories: Learn_to_Learn
 image: 
 ---
 
