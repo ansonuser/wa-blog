@@ -1,8 +1,13 @@
 pip install 做了什麼
 
+
+一般安裝套件, pip 會把套件裡的檔案複製到site-packages/ 下面
+
+
 import 機制
 
-在可搜尋的路徑中尋找相對應的名稱
+
+透過sys.path裡面的路徑去尋找尋找相對應的名稱
 
 
 
@@ -28,6 +33,9 @@ pkg
 
 
 
-Abs                                                                  |           Relative
+Abs                                        |           Relative
 ----------------- ------------- -----------------------------------
 from package.module1 import xxxx           |         from .module1 import xxx
+
+
+建立使用絕對路徑，重構的時候才不會因為資料夾的轉變造成import error
