@@ -55,7 +55,7 @@ $$</div>
 
 
 <div class="wrap">
-	<div class="left" >
+	<div class="left" style="padding:20%" >
 		<div style="height:80%">
 			<figure style="padding-top:20%; padding-bottom:20%">
 				<img src="{{ 'assets/img/camera_calibration/fisheye.png' | relative_url }}">
@@ -66,7 +66,7 @@ $$</div>
 		</div>
 	</div>
 
-	<div class="right">
+	<div class="right" style="padding-left:20%; padding-right;">
 		<figure>
 			<img src="{{ 'assets/img/camera_calibration/omnidirection.png' | relative_url }}">
 			<figcaption  align="center">Fig.3 - 全景</figcaption>
@@ -203,7 +203,7 @@ body > div > div:not(#MathJax_Font_Test) {
 
 .wrap{
   width: 100%;
-  display: flex;
+  /* display: flex; */
   justify-content: space-between;
   height: 200;
 }
