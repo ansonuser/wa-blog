@@ -83,8 +83,10 @@ ex: gaussian, pulse, triangle, rectangular function
 - <https://arxiv.org/pdf/2003.05597.pdf>
 
 
-<script id="MathJax-script"  src="{{site.baseurl}}/js/math.js"></script>
-<script id="MathJax-script1"  src="{{site.baseurl}}/js/MathJax.js"></script>
+<script id="MathJax-script"  src="{{site.baseurl}}/js/math/math.js"></script>
+<script id="MathJax-script1"  src="{{site.baseurl}}/js/math/MathJax.js"></script>
+<script id="MathJax-script"  src="{{site.baseurl}}/js/math/MathMenu.js"></script>
+<script id="MathJax-script1"  src="{{site.baseurl}}/js/math/MathZoom.js"></script>
 
 <style>
 body > div > div:not(#MathJax_Font_Test) {

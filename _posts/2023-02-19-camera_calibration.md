@@ -130,16 +130,17 @@ $$
 
 給定m個世界座標$$g_i$$對應圖像位置 $$e_i$$ => 內參校正過程是在最小化下列方程式
 
-$$F(x) = \frac{1}{2}\sum_{i=1}^m[G(V,g_i) - e_i]^2$$
+$$F(x) = \frac{1}{2}\sum_{i=1}^m[G(V,g_i) - e_i]^2$$, 其中V表示所有未知參數
 
 
 #### 3.2 求解
 
 1. 初始化未知參數 $$k_i = \alpha = 0, \forall i = 1,2...,5 $$, $$\gamma_1 = \gamma_2$$, 並以這些初始值求解外參
 2. (optional[for mirror]) 
-	2.1 移除中心跟邊界的點
-      2.2 移除跟重點範圍太遠的點
-      2.3 將剩餘的點放入 list 中, 隨機sample用median估計mirror center 跟radius
+	
+- 2.1 移除中心跟邊界的點 
+- 2.2 移除跟重點範圍太遠的點
+- 2.3 將剩餘的點放入 list 中, 隨機sample用median估計mirror center 跟radius
 
 3. 估計$$\gamma$$
 
@@ -185,8 +186,10 @@ src:
 - (5)MEI: chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://www.robots.ox.ac.uk/~cmei/articles/single_viewpoint_calib_mei_07.pdf
 - (6)Ceres: https://blog.csdn.net/wzheng92/article/details/80008380
 
-<script id="MathJax-script"  src="{{site.baseurl}}/js/math.js"></script>
-<script id="MathJax-script1"  src="{{site.baseurl}}/js/MathJax.js"></script>
+<script id="MathJax-script"  src="{{site.baseurl}}/js/math/math.js"></script>
+<script id="MathJax-script1"  src="{{site.baseurl}}/js/math/MathJax.js"></script>
+<script id="MathJax-script"  src="{{site.baseurl}}/js/math/MathMenu.js"></script>
+<script id="MathJax-script1"  src="{{site.baseurl}}/js/math/MathZoom.js"></script>
 
 <style>
 body > div > div:not(#MathJax_Font_Test) {
