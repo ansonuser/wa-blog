@@ -21,10 +21,12 @@
               </li>
     
                {% for path in site.pages %}
-                  <li class="nav-item">
-                      <a class="nav-link {% if page.url == path.url%} active {% endif %}" href="{{path.permalink | prepend:site.baseurl}}">{{path.title}}</a>
-                     
-                  </li>
+                  {% if path.title != "index" %}
+                    <li class="nav-item">
+                        <a class="nav-link {% if page.url == path.url%} active {% endif %}" href="{{path.permalink | prepend:site.baseurl}}">{{path.title}}</a>
+                      
+                    </li>
+                  {% endif %}
                 {% endfor %}
             </ul>
           </div>
