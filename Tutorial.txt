@@ -39,3 +39,7 @@ run local:
 change: base_url to '' in _config.yaml
 if deploy on git:
 change: base_url to '$repo_name'
+
+
+語法糖:
+site.pages為repo第一層下所有的md檔(README除外)
