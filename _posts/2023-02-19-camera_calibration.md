@@ -54,23 +54,29 @@ $$</div>
 在某些場景, 我們需要更大範圍的視角, 魚眼是透過多個鏡面折射增加FOV, 而全景則是利用鏡子來達到 360度的視野範圍
 
 
-<div class="wrap">
-	<div class="left" style="padding:20%" >
+<div class="row">
+	<div class="col-8">
 		<div style="height:80%">
-			<figure style="padding-top:20%; padding-bottom:20%">
+			<figure>
 				<img src="{{ 'assets/img/camera_calibration/fisheye.png' | relative_url }}">
 			</figure>
 		</div>
-		<div style="height:20%">
-			<figcaption  align="center">Fig.2- 魚眼</figcaption>	
-		</div>
+			<div style="height:20%">
+				<figcaption  align="center">Fig.2- 魚眼</figcaption>	
+			</div>
+		
 	</div>
-
-	<div class="right" style="padding-left:20%; padding-right;">
-		<figure>
-			<img src="{{ 'assets/img/camera_calibration/omnidirection.png' | relative_url }}">
-			<figcaption  align="center">Fig.3 - 全景</figcaption>
-		</figure>
+	<div class="col-4">
+		
+			<div style="height:80%">
+				<figure>
+					<img src="{{ 'assets/img/camera_calibration/omnidirection.png' | relative_url }}">
+					
+				</figure>
+			</div>
+			<div style="height:20%">
+				<figcaption  align="center">Fig.3 - 全景</figcaption>
+			</div>
 	</div>
 </div>
 
@@ -82,11 +88,12 @@ $$</div>
 
 #### 3.1 校正摘要
 
-
-<figure>
-	<img src="{{ 'assets/img/camera_calibration/proof_unit_circle.png' | relative_url }}" class="center">
+<div class="row">
+	<figure>
+		<img src="{{ 'assets/img/camera_calibration/proof_unit_circle.png' | relative_url }}" class="center">
+	</figure>
 	<figcaption align="center">Fig.4 - 投影至單位圓 </figcaption>
-</figure>
+</div>
 
 
 首先, Fig.4 說明Q'跟Q是相同的點, 會在經過F的平面成像。 這樣一來從P經過mirror(橘線)投影到線l 等價於將P投影至單位圓
@@ -178,22 +185,32 @@ camodocal是用non-linear optimization - ceres solver 來對內參(k1~k6, $$\gam
 
 
 ---------------------------------------------------------------------------------------------------
+
+<div>
 src:
-- (1)一般成像: https://blog.csdn.net/weixin_44278406/article/details/112986651
-- (2)魚眼: https://blog.csdn.net/u010128736/article/details/52864024
-- (3)Catadioptric: https://repository.upenn.edu/cgi/viewcontent.cgi?article=1096&context=cis_papers
-- (4)Camodocal: https://people.inf.ethz.ch/pomarc/pubs/HengIROS13.pdf
-- (5)MEI: chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://www.robots.ox.ac.uk/~cmei/articles/single_viewpoint_calib_mei_07.pdf
-- (6)Ceres: https://blog.csdn.net/wzheng92/article/details/80008380
+	<ul>
+		<li>一般成像: https://blog.csdn.net/weixin_44278406/article/details/112986651</li>
+		<li>魚眼: https://blog.csdn.net/u010128736/article/details/52864024</li>
+		<li>Catadioptric: https://repository.upenn.edu/cgi/viewcontent.cgi?</li>
+		<li>Camodocal: https://people.inf.ethz.ch/pomarc/pubs/HengIROS13.pdf</li>
+		<li>MEI: /https://www.robots.ox.ac.uk/~cmei/articles/single_viewpoint_calib_mei_07.pdf</li>
+		<li>Ceres: https://blog.csdn.net/wzheng92/article/details/80008380</li>
+	</ul>
+</div>
 
 <script id="MathJax-script"  src="{{site.baseurl}}/js/math/math.js"></script>
 <script id="MathJax-script1"  src="{{site.baseurl}}/js/math/MathJax.js"></script>
-<script id="MathJax-script"  src="{{site.baseurl}}/js/math/MathMenu.js"></script>
-<script id="MathJax-script1"  src="{{site.baseurl}}/js/math/MathZoom.js"></script>
+<script id="MathJax-script2"  src="{{site.baseurl}}/js/math/MathMenu.js"></script>
+<script id="MathJax-script3"  src="{{site.baseurl}}/js/math/MathZoom.js"></script>
 
 <style>
+
 body > div > div:not(#MathJax_Font_Test) {
-    min-width: 960px;
+    min-width: 640px;
+}
+
+img {
+	max-width: 100%;
 }
 
 
@@ -218,4 +235,9 @@ body > div > div:not(#MathJax_Font_Test) {
 .right{
   width: 50%
 }
+header ul li{
+    box-sizing: border-box;
+    padding: 0;
+}
+
 </style>

@@ -49,7 +49,7 @@ w = 1， 是指將180度分成180類，每類長度為1
 
 因此這邊提出另一個方式: Circular Smooth Label for Angular Classification
 
-## Circular Smooth Label for Angular Classification (CSL)
+### Circular Smooth Label for Angular Classification (CSL)
 
 
 
@@ -78,18 +78,35 @@ ex: gaussian, pulse, triangle, rectangular function
 
 ![different-coding]({{ "/assets/img/rotate_bounding_box_fig4.PNG" | relative_url }})
 
-**source**:
-- <https://www.cvmart.net/community/detail/2862>
-- <https://arxiv.org/pdf/2003.05597.pdf>
+
+<div>
+  src
+  <ul>
+    <li> https://www.cvmart.net/community/detail/2862 </li>
+    <li> https://arxiv.org/pdf/2003.05597.pdf </li>
+  </ul>
+</div>
 
 
 <script id="MathJax-script"  src="{{site.baseurl}}/js/math/math.js"></script>
 <script id="MathJax-script1"  src="{{site.baseurl}}/js/math/MathJax.js"></script>
-<script id="MathJax-script"  src="{{site.baseurl}}/js/math/MathMenu.js"></script>
-<script id="MathJax-script1"  src="{{site.baseurl}}/js/math/MathZoom.js"></script>
+<script id="MathJax-script2"  src="{{site.baseurl}}/js/math/MathMenu.js"></script>
+<script id="MathJax-script3"  src="{{site.baseurl}}/js/math/MathZoom.js"></script>
 
 <style>
 body > div > div:not(#MathJax_Font_Test) {
     min-width: 960px;
 }
+
+img {
+	max-width: 100%;
+}
+
+
+
+header ul li{
+    box-sizing: border-box;
+    padding: 0;
+}
 </style>
+
