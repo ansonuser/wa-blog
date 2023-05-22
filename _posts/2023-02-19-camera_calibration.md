@@ -202,12 +202,16 @@ src:
 <script id="MathJax-script1"  src="{{site.baseurl}}/js/math/MathJax.js"></script>
 <script id="MathJax-script2"  src="{{site.baseurl}}/js/math/MathMenu.js"></script>
 <script id="MathJax-script3"  src="{{site.baseurl}}/js/math/MathZoom.js"></script>
+<script> 
+		var elements = document.getElementsByClassName('MathJax');
 
+		for (var i = 0; i < elements.length; i++) {
+		var element = elements[i];
+		element.style.fontSize = "100%";
+		}
+</script>
 <style>
 
-body > div > div:not(#MathJax_Font_Test) {
-    min-width: 640px;
-}
 
 img {
 	max-width: 100%;
