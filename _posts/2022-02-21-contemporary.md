@@ -262,4 +262,17 @@ ex: 房地產, 大宗商品(石油 鋼鐵)
 **備註**
 確定營業費用產生利潤的期間，估算費用所創造的價值並加到股權中，用來估算權益與資本報酬，然後根據攤銷成本和新創資產費用來調整營業收入
 
-<script id="MathJax-script"  src="{{site.baseurl}}/js/math.js"></script>
+
+
+<script id="MathJax-script"  src="{{site.baseurl}}/js/math/math.js"></script>
+<script id="MathJax-script1"  src="{{site.baseurl}}/js/math/MathJax.js"></script>
+<script id="MathJax-script2"  src="{{site.baseurl}}/js/math/MathMenu.js"></script>
+<script id="MathJax-script3"  src="{{site.baseurl}}/js/math/MathZoom.js"></script>
+<script> 
+		var elements = document.getElementsByClassName('MathJax');
+
+		for (var i = 0; i < elements.length; i++) {
+		var element = elements[i];
+		element.style.fontSize = "100%";
+		}
+</script>
