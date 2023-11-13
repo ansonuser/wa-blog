@@ -1,6 +1,6 @@
 ---
 title: Atomic Habit
-categories: Learn to learn
+categories: Learn_to_Learn
 image: 
 ---
 

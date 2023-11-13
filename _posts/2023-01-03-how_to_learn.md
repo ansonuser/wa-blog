@@ -1,6 +1,6 @@
 ---
 title: 學習做筆記
-categories: Learn_to_ Learn
+categories: Learn_to_Learn
 image: 
 ---
 
