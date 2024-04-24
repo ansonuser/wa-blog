@@ -35,7 +35,7 @@ $$z_k = Hx_k + v_k\longrightarrow (2)$$ 將空間由模型估計映射到觀測�
 
 $$\hat{y_k} = K(z_k-\hat{z_k}) \longrightarrow (3) $$, 模型預測誤差
 
-Consider the multiple of the distributions of $$z_k $$ and $$ \hat(z_k)$$ and serve the result of final distribution as our posterior model.
+Consider the multiple of the distributions of $$ z_k $$ and $$ \hat(z_k) $$ and serve the result of final distribution as our posterior model.
 
 The update estimate of $$ x_k$$ is $$\hat{x_k} + K_k \hat{y_k} $$ which is exactly the addition of the multiple of residual and $$ K_k $$ here called Kalman gain. 
 
